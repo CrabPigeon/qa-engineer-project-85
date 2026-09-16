@@ -1,8 +1,20 @@
 ---
 - summary: |
+    Успешная регистрация на сайте через email
+  requirement: |
+    Пользователь может авторизоваться через email, GitHub или Discord
+  prerequisites: |
+  test-data: |
+    no data
+  steps:
+  -
+  expected-result: |
+
+    
+- summary: |
     Успешная авторизация через GitHub
   requirement: |
-    Пользователь может авторизоваться через GitHub
+    Пользователь может авторизоваться через email, GitHub или Discord
   prerequisites: |
   test-data: |
   steps:
@@ -12,13 +24,23 @@
 - summary: |
     Отмена авторизации через GitHub
   requirement: |
-    Пользователь может авторизоваться через GitHub
+    Пользователь может авторизоваться через email, GitHub или Discord
   prerequisites: |
   test-data: |
   steps:
     - 
   expected-result: |
 
+- summary: |
+    Успешная регистрация на сайте через Discord
+  requirement: |
+    Пользователь может авторизоваться через email, GitHub и Discord
+  prerequisites: |
+  test-data: |
+    no data
+  steps:
+  -
+  expected-result: |
 - summary: |
     Успешный старт простой игры с ботом без регистрации
   requirement: |
