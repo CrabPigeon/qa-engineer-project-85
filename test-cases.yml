@@ -1,1 +1,260 @@
+---
+- summary: |
+    Успешная авторизация через GitHub
+  requirement: |
+    Пользователь может авторизоваться через GitHub
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
 
+- summary: |
+    Отмена авторизации через GitHub
+  requirement: |
+    Пользователь может авторизоваться через GitHub
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешный старт простой игры с ботом без регистрации
+  requirement: |
+    Незарегистрированный пользователь может начать простую игру с ботом
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешное создание игры против бота
+  requirement: |
+    Пользователь может создать игру против бота, случайного игрока или друга по ссылке
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешное создание игры со случайным игроком
+  requirement: |
+    Пользователь может создать игру против бота, случайного игрока или друга по ссылке
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешное создание игры с другом по ссылке
+  requirement: |
+    Пользователь может создать игру против бота, случайного игрока или друга по ссылке
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешное создание игры с другом без выбора соперника или ссылки
+  requirement: |
+    Пользователь может создать игру против бота, случайного игрока или друга по ссылке
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешный выбор уровня сложности при создании игры
+  requirement: |
+    Пользователь может выбирать уровень сложности или конкретную задачу
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешное создание игры с конкретной задачей
+  requirement: |
+    Пользователь может выбирать уровень сложности или конкретную задачу
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешное создание игры с случайной задачей
+  requirement: |
+    Если пользователь не выбрал конкретную задачу, система должна подобрать её случайно
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Отображение редактора соперника и вывода тестов во время игры
+  requirement: |
+    Пользователь может видеть редактор кода соперника и вывод тестов во время игры
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешная смена языка программирования во время решения
+  requirement: |
+    Пользователь может менять язык программирования во время решения
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешный повторный запуск тестов во время игры
+  requirement: |
+    Во время игры пользователь может многократно запускать тесты своего решения
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешная сдача до истечения времени
+  requirement: |
+    Пользователь может сдаться до истечения времени
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Успешная отправка сообщения в чат во время игры
+  requirement: |
+    Зарегистрированные пользователи могут общаться в чате во время игры
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Отправка сообщения в игровой чат незарегистрированным пользователем
+  requirement: |
+    Зарегистрированные пользователи могут общаться в чате во время игры
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Просмотр чужой игры в роли зрителя
+  requirement: |
+    Другие пользователи могут следить за ходом игры
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Открытие записи завершённой игры
+  requirement: |
+    Пользователю доступны записи завершенных игр
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Отображение рейтинга за неделю, месяц и за всё время
+  requirement: |
+    Пользователи должны получать очки, на основе которых строится рейтинг за неделю, месяц и за всё время
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Отображение сайта на мобильном разрешении экрана
+  requirement: |
+    Сайт должен корректно работать на мобильных устройствах
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Отображение условий задачи на русском и английском языках
+  requirement: |
+    Интерфейс и условия задач должны быть доступны на русском и английском языках
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Обновление кода и результатов тестов без перезагрузки страницы
+  requirement: |
+    Изменения в редакторе и результаты тестов отображаются без перезагрузки страницы
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Отображение таймера во время игры
+  requirement: |
+    Во время игры есть ограничение по времени
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Попытка изменить код соперника
+  requirement: |
+    Игрок не может изменять код соперника
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Попытка зрителя писать код за участников
+  requirement: |
+    Зритель не может писать код за участников
+  prerequisites: |
+  test-data: |
+  steps:
+    - 
+  expected-result: |
+
+- summary: |
+    Проверка чата на 'code injection'
+  requirement: |
+    Сайт должен быть безопасным и защищать данные пользователя
+  prerequisites: |
+  test-data: |
+  steps:
+    -
+  expected-result: |
