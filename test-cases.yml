@@ -2,52 +2,59 @@
 - summary: |
     Успешная регистрация на сайте через email
   requirement: |
-    Пользователь может авторизоваться через email, GitHub или Discord
+    Пользователь может зарегистрироваться и войти через email, GitHub или Discord
   prerequisites: |
-  открыта главная страница https://codebattle.hexlet.io/
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь не авторизован в Codebatle
+    Указанные email и nickname ещё не заняты
   test-data: |
-    Nickname = 'testuser998',Email = 'testuser999@gmail.com', Password = 'Testpass321!'
+    Nickname = testuser998
+    Email = testuser999@gmail.com
+    Password = Testpass321!
   steps:
-    - нажимаем на кнопку 'Sign up'
-    - вводим Nickname
-    - вводим Email
-    - вводим Password
-    - подтверждаем Password
-    - нажимаем на кнопку 'Submit'
+    - Нажать кнопку Sign up
+    - Ввести Nickname
+    - Ввести Email
+    - Ввести Password
+    - Ввести подтверждение Password
+    - Нажать кнопку Submit
   expected-result: |
-    Пользователь успешно зарегистрировался на сайте по адресу электронной почты
-
-    
-- summary: |
-    Успешная авторизация через GitHub
-  requirement: |
-    Пользователь может авторизоваться через email, GitHub или Discord
-  prerequisites: |
-  test-data: |
-  steps:
-    - 
-  expected-result: |
+    Пользователь зарегистрирован и авторизован на сайте
 
 - summary: |
-    Отмена авторизации через GitHub
+    Успешный вход на сайт через GitHub
   requirement: |
-    Пользователь может авторизоваться через email, GitHub или Discord
+    Пользователь может зарегистрироваться и войти через email, GitHub или Discord
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь не авторизован в Codebattle
+    Есть аккаунт на https://github.com/
   test-data: |
+    Профиль пользователя GitHub
   steps:
-    - 
+    - Нажать кнопку Sign up
+    - Нажать кнопку Sign up with GitHub
+    - Подтвердить доступ, если GitHub его запрашивает
   expected-result: |
+    Пользователь авторизован через GitHub
 
 - summary: |
-    Успешная регистрация на сайте через Discord
+    Успешный вход на сайт через Discord
   requirement: |
-    Пользователь может авторизоваться через email, GitHub и Discord
+    Пользователь может зарегистрироваться и войти через email, GitHub или Discord
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь не авторизован в Codebattle
+    Есть аккаунт на https://discord.com/
   test-data: |
-    no data
+    Профиль пользователя Discord
   steps:
-  -
+    - Нажать кнопку Sign up
+    - Нажать кнопку Sign up with Discord
+    - Подтвердить доступ, если Discord его запрашивает
   expected-result: |
+    Пользователь авторизован через Discord
+
 - summary: |
     Успешный старт простой игры с ботом без регистрации
   requirement: |
