@@ -4,11 +4,18 @@
   requirement: |
     Пользователь может авторизоваться через email, GitHub или Discord
   prerequisites: |
+  открыта главная страница https://codebattle.hexlet.io/
   test-data: |
-    no data
+    Nickname = 'testuser998',Email = 'testuser999@gmail.com', Password = 'Testpass321!'
   steps:
-  -
+    - нажимаем на кнопку 'Sign up'
+    - вводим Nickname
+    - вводим Email
+    - вводим Password
+    - подтверждаем Password
+    - нажимаем на кнопку 'Submit'
   expected-result: |
+    Пользователь успешно зарегистрировался на сайте по адресу электронной почты
 
     
 - summary: |
