@@ -56,6 +56,28 @@
     Пользователь авторизован через Discord
 
 - summary: |
+    Регистрация через email с уже занятым адресом
+  requirement: |
+    Пользователь может зарегистрироваться и войти через email, GitHub или Discord
+  prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь не авторизован
+    Email уже зарегистрирован
+  test-data: |
+    Nickname = testuser998
+    Email = testuser999@gmail.com
+    Password = Testpass321!
+  steps:
+    - Нажать кнопку Sign up
+    - Ввести Nickname
+    - Ввести Email
+    - Ввести Password
+    - Ввести подтверждение Password
+    - Нажать кнопку Submit
+  expected-result: |
+    Новый пользователь не создаётся. Отображается сообщение email is already taken
+    
+- summary: |
     Успешный старт простой игры с ботом без регистрации
   requirement: |
     Незарегистрированный пользователь может начать простую игру с ботом
