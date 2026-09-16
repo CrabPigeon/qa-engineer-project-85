@@ -82,10 +82,14 @@
   requirement: |
     Незарегистрированный пользователь может начать простую игру с ботом
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь не авторизован
   test-data: |
+      Не требуется
   steps:
-    - 
+    - Нажать Try simple battle
   expected-result: |
+    Открывается страница игры против бота (сложность elementary)
 
 - summary: |
     Успешное создание игры против бота
