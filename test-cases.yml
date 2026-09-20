@@ -182,20 +182,36 @@
   requirement: |
     Пользователь может выбирать уровень сложности или конкретную задачу
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
+    Level = Hard(4 звезды)
   steps:
-    - 
+    - Нажать Create a game
+    - Выбрать Level
+    - Нажать Create battle
   expected-result: |
+    Создается игра сложность Hard
+    На странице игры рядом с названием задачи отображается иконка 4 звезды
+ 
 
 - summary: |
     Успешное создание игры с конкретной задачей
   requirement: |
     Пользователь может выбирать уровень сложности или конкретную задачу
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
+    Level = elementary
+    Task = Find the second smallest number in an array
   steps:
-    - 
+    - Нажать Create a game
+    - Выбрать Level
+    - В Choose task by name or tags выбрать Task
+    - Нажать Create battle
   expected-result: |
+    Нас страницу игры отображается название Find the second smallest number in an array
 
 - summary: |
     Успешное создание игры с случайной задачей
