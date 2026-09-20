@@ -96,10 +96,20 @@
   requirement: |
     Пользователь может создать игру против бота, случайного игрока или друга по ссылке
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
+    Level = elementary
+    Game Type = With a bot
+    Time control = 1min
+    Task by name = random task
+    Task by tag = collections
   steps:
-    - 
+    - Нажать 'Create a game'
+    - Выбрать Level, GameType, Time control, Task by name, Task by tag
+    - Нажать 'Create battle'
   expected-result: |
+    Открывается страница игры против бота
 
 - summary: |
     Успешное создание игры со случайным игроком
