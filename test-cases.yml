@@ -218,10 +218,17 @@
   requirement: |
     Если пользователь не выбрал конкретную задачу, система должна подобрать её случайно
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
+    Level = elementary
+    Task = random task (111 available)
   steps:
-    - 
+    - Нажать Create a game
+    - В Choose task by name or tags выбрать random task (111 available)
+    - Нажать Create battle
   expected-result: |
+    На странице игры есть название задачи
 
 - summary: |
     Отображение редактора соперника и вывода тестов во время игры
