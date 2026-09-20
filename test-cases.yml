@@ -116,30 +116,66 @@
   requirement: |
     Пользователь может создать игру против бота, случайного игрока или друга по ссылке
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
+    Level = elementary
+    Game Type = With other user
+    Time control = 1min
+    Task by name = random task
+    Task by tag = collections
   steps:
-    - 
+    - Нажать 'Create a game'
+    - Выбрать Level, GameType, Time control, Task by name, Task by tag
+    - Нажать 'Create battle'
   expected-result: |
-
+    Создаётся игра со случайным игроком
+    
 - summary: |
     Успешное создание игры с другом по ссылке
   requirement: |
     Пользователь может создать игру против бота, случайного игрока или друга по ссылке
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
+    testPlayer зарегистрирован на сайте
   test-data: |
+    Level = elementary
+    Game Type = With a friend
+    Time control = 1min
+    Task by name = random task
+    Task by tag = collections
+    Opponent = testPlayer
   steps:
-    - 
+    - Нажать 'Create a game'
+    - Выбрать Level, GameType, Time control, Task by name, Task by tag
+    - В Choose opponent выбрать Opponent
+    - Нажать 'Create battle'
   expected-result: |
+   Иконка инвайтов показывает 1
+   Всплывающее окно показывает You invited testPlayer
+   В чате сообщение You invite testPlayer to battle. Wait for his reply
 
 - summary: |
-    Успешное создание игры с другом без выбора соперника или ссылки
+    Создание игры с другом без выбора соперника или ссылки
   requirement: |
     Пользователь может создать игру против бота, случайного игрока или друга по ссылке
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
+    Level = elementary
+    Game Type = With a friend
+    Time control = 1min
+    Task by name = random task
+    Task by tag = collections
   steps:
-    - 
+    - Нажать 'Create a game'
+    - Выбрать Level, GameType, Time control, Task by name, Task by tag
+    - Choose opponent оставить пустой
   expected-result: |
+    Кнопка Create battle остаётся серой и некликабельной
+    Приглашение не создаётся
 
 - summary: |
     Успешный выбор уровня сложности при создании игры
