@@ -235,20 +235,37 @@
   requirement: |
     Пользователь может видеть редактор кода соперника и вывод тестов во время игры
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
   test-data: |
-  steps:
-    - 
+    Level = elementary
+    Game Type = With a bot
+    Time control = 1 min
+    Task by name = random task
+    Task by tag = collections  
+ steps:
+    - Нажать Create a game
+    - Нажать Create battle
   expected-result: |
+    На странице игры отображаются редактор соперника и окно вывода тестов
 
 - summary: |
     Успешная смена языка программирования во время решения
   requirement: |
     Пользователь может менять язык программирования во время решения
   prerequisites: |
+    Открыта главная страница https://codebattle.hexlet.io/
+    Пользователь авторизован
+    Создана игра против бота
   test-data: |
+    Исходный язык = Node.js 25.4.0
+    Новый язык = Elixir 1.19.5
   steps:
-    - 
+    - Открыть список языков в игре
+    - Выбрать Elixir 1.19.5
   expected-result: |
+    В редакторе выбран Elixir 1.19.5
+    Текущая игра продолжается
 
 - summary: |
     Успешный повторный запуск тестов во время игры
