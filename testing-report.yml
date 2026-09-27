@@ -1,51 +1,51 @@
 ---
-summary: |
-  Успешная регистрация на сайте через email
-status: pass
-summary: |
+- summary: |
+    Успешная регистрация на сайте через email
+  status: pass
+
+- summary: |
     Успешный вход на сайт через GitHub
   status: pass
 
 - summary: |
     Успешный вход на сайт через Discord
-status: pass
+  status: pass
 
 - summary: |
     Регистрация через email с уже занятым адресом
-status: pass
+  status: pass
     
 - summary: |
     Успешный старт простой игры с ботом без регистрации
-status: pass
+  status: pass
 
 - summary: |
     Успешное создание игры против бота
-status: pass
+  status: pass
 
 - summary: |
     Успешное создание игры со случайным игроком
- status: pass
+  status: pass
     
 - summary: |
     Успешное создание игры с другом по ссылке
-status: pass
+  status: pass
 
 - summary: |
     Создание игры с другом без выбора соперника или ссылки
-status: pass
+  status: pass
 
 - summary: |
     Успешный выбор уровня сложности при создании игры
- status: pass
- 
+  status: pass
 
 - summary: |
     Успешное создание игры с конкретной задачей
-status: pass
+  status: pass
 
 - summary: |
     Успешное создание игры с случайной задачей
-status: pass
+  status: pass
 
 - summary: |
     Отображение редактора соперника и вывода тестов во время игры
@@ -53,18 +53,18 @@ status: pass
 
 - summary: |
     Успешная смена языка программирования во время решения
-status: pass
+  status: pass
 
 - summary: |
     Успешный повторный запуск тестов во время игры
-status: pass
+  status: pass
 - summary: |
     Успешная сдача до истечения времени
-status: pass
+  status: pass
 
 - summary: |
     Успешная отправка сообщения в чат во время игры
- status: pass
+  status: pass
 
 - summary: |
     Просмотр чужой игры в роли зрителя
@@ -80,32 +80,32 @@ status: pass
 
 - summary: |
     Отображение сайта на мобильном разрешении экрана
-status: pass
+  status: pass
 
 - summary: |
     Отображение условий задачи на русском и английском языках
-status: pass
+  status: pass
 
 - summary: |
     Обновление кода и результатов тестов без перезагрузки страницы
- status: pass
+  status: pass
 
 - summary: |
     Отображение таймера во время игры
-status: pass
+  status: pass
 
 - summary: |
     Попытка изменить код соперника
- status: pass
+  status: pass
 
 - summary: |
     Попытка зрителя писать код за участников
-status: pass
+  status: pass
     
 - summary: |
     Проверка чата на 'code injection'
-status: pass
+  status: pass
 
 - summary: |
     Открытие сайта в актуальных версиях популярных браузеров
-status: pass
+  status: pass
