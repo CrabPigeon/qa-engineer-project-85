@@ -243,7 +243,7 @@
     Time control = 1 min
     Task by name = random task
     Task by tag = collections  
- steps:
+  steps:
     - Нажать Create a game
     - Нажать Create battle
   expected-result: |
@@ -401,7 +401,7 @@
     Отображение условий задачи на русском и английском языках
   requirement: |
     Интерфейс и условия задач должны быть доступны на русском и английском языках
-   prerequisites: |
+  prerequisites: |
     Открыта главная страница https://codebattle.hexlet.io/
     Пользователь авторизован
   test-data: |
@@ -421,7 +421,7 @@
     Обновление кода и результатов тестов без перезагрузки страницы
   requirement: |
     Изменения в редакторе и результаты тестов отображаются без перезагрузки страницы
- prerequisites: |
+  prerequisites: |
     Пользователь авторизован
     Создана игра против бота
   test-data: |
