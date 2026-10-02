@@ -298,7 +298,11 @@
     Игра не окончена
     Таймер ещё идёт
   test-data: |
-      Не требуется
+    Task = Write a function that checks whether a string consists of digits only
+    Язык = JavaScript
+    Код решения = alert('Just give up!')
+    Game Type = With a bot
+    Time control = 1 min
   steps:
     - Открыть меню с тремя точками
     - Нажать Give up
